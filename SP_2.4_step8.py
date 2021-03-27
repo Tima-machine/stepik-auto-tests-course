@@ -11,7 +11,7 @@ def calc(x):
 link = "http://suninjuly.github.io/explicit_wait2.html"
 
 try:
-    browser = webdriver.Chrome(executable_path='C:/Users/timur/pythonProject/SeleniumProject/ChromeDriver/chromedriver.exe')
+    browser = webdriver.Chrome()
     browser.get(link)
     button = browser.find_element_by_id("book")
 
